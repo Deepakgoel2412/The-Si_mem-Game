@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <h1 id="level-title">Si-mem</h1>
+
+
+    <div class="main">
+
+        <div class="left">
+            <img class="simon-img" src="images/simon1.jpg" alt="">
+            <img class="simon-img" src="images/simon2.jpg" alt="">
+        </div>
+
+
+        <div class="container">
+
+            <div class="row">
+
+                <div type="button" id="" class="simon">
+                    <h3>Play</h3>
+                </div>
+
+                <!-- <div type="button" id="red" class="btn simon">
+                <h3>Rules</h3>
+            </div> -->
+            </div>
+
+
+            <div class="row">
+
+                <div type="button" id="green" class="btn green">
+
+                </div>
+
+                <div type="button" id="red" class="btn red">
+
+                </div>
+            </div>
+
+
+
+            <div class="row">
+
+                <div type="button" id="yellow" class="btn yellow">
+
+                </div>
+                <div type="button" id="blue" class="btn blue">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <h3 class="rule-heading">Rules</h3>
+
+            <ol class="rules">
+
+                <li class="list">
+                    Press the Play button. Simon will give the first signal. Repeat the signal by pressing the same color lens.
+                </li>
+                <li class="list">
+                    Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same
+                    color lenses, in order.
+                </li>
+                <li class="list">
+                    Simon will duplicate these first two signals and add one.
+                </li>
+                <li class="list">
+                    If you fail to repeat a sequence exactly, Simon responds with some weird sound. This means you've lost, and the sequence of signals ends.
+                </li>
+            </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
